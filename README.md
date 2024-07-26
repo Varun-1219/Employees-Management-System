@@ -16,6 +16,11 @@ The Employees Management System is designed to streamline the management of empl
 ## System Architecture
 The system architecture is centered around a SQL database that stores all employee-related data. The application interacts with this database to perform CRUD (Create, Read, Update, Delete) operations and execute complex queries for data analysis.
 
+Maintenance and Troubleshooting
+Regular Maintenance: Regularly back up the database and monitor performance.
+Common Issues: Ensure the database server is running and queries are correctly structured.
+  
+
 ## Table Descriptions
 ### EmployeeDetails Table
 - **EmployeeID:** INT Primary Key
@@ -39,8 +44,5 @@ CREATE TABLE EmployeeDetails (
   HireDate DATE
 );
 
-Maintenance and Troubleshooting
-Regular Maintenance: Regularly back up the database and monitor performance.
-Common Issues: Ensure the database server is running and queries are correctly structured.
-  
+
 
