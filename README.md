@@ -39,5 +39,8 @@ CREATE TABLE EmployeeDetails (
   HireDate DATE
 );
 
+Maintenance and Troubleshooting
+Regular Maintenance: Regularly back up the database and monitor performance.
+Common Issues: Ensure the database server is running and queries are correctly structured.
   
 
