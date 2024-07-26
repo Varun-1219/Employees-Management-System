@@ -26,19 +26,7 @@ The system architecture is centered around a SQL database that stores all employ
 - **Salary:** DECIMAL(10,2)
 - **HireDate:** DATE
 
-## SQL Queries
-### Schema Definition
-```sql
-CREATE DATABASE Employee;
-USE Employee;
-CREATE TABLE EmployeeDetails (
-  EmployeeID INT PRIMARY KEY,
-  FirstName VARCHAR(50),
-  LastName VARCHAR(50),
-  Department VARCHAR(50),
-  Salary DECIMAL(10,2),
-  HireDate DATE
-);
+
 
 
 
