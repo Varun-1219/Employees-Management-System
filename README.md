@@ -16,6 +16,28 @@ The Employees Management System is designed to streamline the management of empl
 ## System Architecture
 The system architecture is centered around a SQL database that stores all employee-related data. The application interacts with this database to perform CRUD (Create, Read, Update, Delete) operations and execute complex queries for data analysis.
 
+## Table Descriptions
+### EmployeeDetails Table
+- **EmployeeID:** INT Primary Key
+- **FirstName:** VARCHAR(50)
+- **LastName:** VARCHAR(50)
+- **Department:** VARCHAR(50)
+- **Salary:** DECIMAL(10,2)
+- **HireDate:** DATE
+
+## SQL Queries
+### Schema Definition
+```sql
+CREATE DATABASE Employee;
+USE Employee;
+CREATE TABLE EmployeeDetails (
+  EmployeeID INT PRIMARY KEY,
+  FirstName VARCHAR(50),
+  LastName VARCHAR(50),
+  Department VARCHAR(50),
+  Salary DECIMAL(10,2),
+  HireDate DATE
+);
 
   
 
